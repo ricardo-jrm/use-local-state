@@ -21,57 +21,6 @@
 
 <br />
 
-### <b>Bootstrap</b>
-
-```ts
-npx @ricardo-jrm/use-local-state
-```
-
-Boilerplate `React` project bootstrapped with all necessary configs and workflows
-
-<br />
-
-### <b>Workflows</b>
-
-Quality Assurance
-
-- Will lint code and run tests
-- Runs on `pull_request` sync and `push` to `main`
-
-Release
-
-- Will create a GitHub release with auto generated versioning and changelog
-- Will publish the package to the public NPM registry
-- Runs on `push` to `main` and after the QA job
-
-Publish to GitHub (Public)
-
-- Will publish the package to the public GitHub registry
-- Runs on `workflow_dispatch`
-
-<br />
-
-### <b>Dev Dependencies</b>
-
-- `React`
-- `Typescript`
-- `Prettier`
-- `ESLint`
-- `Commit Lint`
-- `Lint Staged`
-- `Husky`
-- `Jest`
-- `React Testing Library`
-- `Storybook`
-- `Webpack`
-- `Semantic Release`
-
-<br />
-
----
-
-<br />
-
 ### <b>Install</b>
 
 ```ts
@@ -85,7 +34,9 @@ yarn add @ricardo-jrm/use-local-state
 ### <b>Usage</b>
 
 ```ts
-import { ExampleComponent, useExampleHook } from '@ricardo-jrm/use-local-state';
+import { useLocalState } from '@ricardo-jrm/use-local-state';
+
+const [example, setExample] = useLocalState<number>('my-example', 1337);
 ```
 
 <br />
