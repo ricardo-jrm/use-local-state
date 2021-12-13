@@ -1,8 +1,8 @@
 {
   "name": "@ricardo-jrm/use-local-state",
   "description": "State hook that syncs with local storage",
-  "version": "0.0.0-development",
-  "main": "dist/index.min.js",
+  "version": "0.0.1-development",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
