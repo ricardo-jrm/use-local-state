@@ -1,21 +1,21 @@
 {
-  "name": "@ricardo-jrm/use-local-state",
+  "name": "@ricardojrmcom/use-local-state",
   "description": "State hook that syncs with local storage",
-  "version": "0.0.1-development",
+  "version": "0.0.2-development",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardo-jrm/use-local-state.git"
+    "url": "https://github.com/ricardojrmcom/use-local-state.git"
   },
   "author": {
     "name": "Ricardo Mota",
-    "url": "https://github.com/ricardo-jrm"
+    "url": "https://github.com/ricardojrmcom"
   },
-  "homepage": "https://github.com/ricardo-jrm/use-local-state#readme",
+  "homepage": "https://github.com/ricardojrmcom/use-local-state#readme",
   "bugs": {
-    "url": "https://github.com/ricardo-jrm/use-local-state/issues"
+    "url": "https://github.com/ricardojrmcom/use-local-state/issues"
   },
   "license": "MIT",
   "keywords": [
